@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Ailerons';
+  src: url('fuentes/Ailerons.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'A Love of Thunder';
+  src: url('fuentes/ALoveOfThunder.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Humanst521 BT';
+  src: url('fuentes/Humanst521BT.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  background: url('/img/Fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Humanst521 BT', sans-serif;
+  color: #e5e5e5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.icono-usuario {
+  height: 40px;
+}
+
+.titulo-menu {
+  font-family: 'Ailerons';
+  font-size: 23.82pt;
+  letter-spacing: 2px;
+}
+
+.principal {
+  position: relative;
+  text-align: center;
+}
+
+.img-principal {
+  width: 100%;
+  height: auto;
+}
+
+.texto-principal {
+  position: absolute;
+  bottom: 60px;
+  width: 96%;
+  font-family: 'A Love of Thunder';
+  font-size: 60pt;
+  text-align: right;
+}
+
+.texto-principal .claro {
+  color: #e3e5df;
+  display: block;
+}
+
+.texto-principal .amarillo {
+  color: #d0b818;
+  display: block;
+}
+
+.productos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  text-align: center
+}
+
+.productos img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 40px;
+}
+
+.productos {
+  font-family: 'Ailerons';
+  font-size: 23.82pt;
+  margin-top: 20px;
+  line-height: 1.2;
+}
+
+.nuevos {
+  font-family: 'Ailerons';
+  font-size: 52.92pt;
+  text-align: center;
+  margin: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  font-size: 18pt;
+  font-family: 'Humanst521 BT';
+}
+
+.redes {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.redes img {
+  width: 30px;
+  margin-left: 0px;
+  vertical-align: middle;
+  margin-top: 5px;
+}
